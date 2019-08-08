@@ -139,7 +139,6 @@ export default {
     console.warn("mounted");
   },
   beforeDestroy() {
-    alert("destroyed");
     console.warn("beforeDestroy");
   },
   destroyed() {
