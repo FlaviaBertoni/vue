@@ -5,13 +5,14 @@ pipeline {
     stage('Dependences'){
       steps {
         echo "npm install"
-        sh 'npm config ls'
+        sh 'npm install'
       }
     }
 
     stage('Build'){
       steps {
         echo "npm run build"
+        sh 'npm run build'
       }
     }
   }
