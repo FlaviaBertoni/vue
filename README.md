@@ -1,4 +1,4 @@
-# Vue Dojo
+# Vue Study Project
 
 > A Vue.js project
 
