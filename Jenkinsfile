@@ -5,6 +5,7 @@ pipeline {
     stage('Dependences'){
       steps {
         echo "npm install"
+        sh 'npm config ls'
       }
     }
 
